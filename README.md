@@ -8,14 +8,6 @@
 
 <br>
 
-## 📝 구현 목록
-
-- 주어진 문자의 자음 별 개수를 구하기
-
-<img alt="preview" src ="https://user-images.githubusercontent.com/60386993/133042291-24a06664-33d0-4dd7-9f11-e3351b1b3c4a.gif" width="350"/>
-
-<br>
-
 ## 💻 Built With
 
 <div style="display: flex">
@@ -26,3 +18,13 @@
 </div>
 
 <br>
+
+## 📝 구현 목록
+
+- 주어진 문자의 자음 별 개수를 구하기
+
+<img alt="preview" src ="https://user-images.githubusercontent.com/60386993/133042291-24a06664-33d0-4dd7-9f11-e3351b1b3c4a.gif" width="350"/>
+
+<br>
+
+
