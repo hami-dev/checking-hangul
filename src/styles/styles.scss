@@ -1,0 +1,81 @@
+@import "./_variables";
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+div,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  width: 45rem;
+  background-color: $bg_yellow;
+  color: $text_brown;
+  font-size: 1.5rem;
+  margin: 0 auto;
+  margin-bottom: 4rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input {
+  width: 100%;
+  border: 1px solid $main_yellow;
+  padding: 1.5rem;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+button {
+  width: 17rem;
+  background-color: $main_yellow;
+  border: none;
+  cursor: pointer;
+  padding: 1.5rem 2rem;
+}
+
+.result__text {
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin-top: 2rem;
+}
+
+li {
+  width: 100%;
+  list-style: none;
+  text-align: center;
+  border-bottom: 1px solid $light_yellow;
+  margin-top: 1rem;
+  padding: 0.5rem;
+
+  .list__hangul {
+    vertical-align: bottom;
+  }
+
+  .list__line {
+    color: $main_yellow;
+    margin: 0 1rem;
+  }
+}
+
+
